@@ -74,10 +74,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.44840667">
       <split-first>
         <leaf>
-          <file leaf-file-name="FizzBuzz.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="FizzBuzz.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/pl/pragmatists/pair/FizzBuzz.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="0" selection-start="322" selection-end="322" vertical-scroll-proportion="0.31413612">
+                <state line="30" column="34" selection-start="705" selection-end="705" vertical-scroll-proportion="1.168">
                   <folding />
                 </state>
               </provider>
@@ -87,21 +87,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="FizzBuzzTest.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="FizzBuzzTest.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/pl/pragmatists/pair/FizzBuzzTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="28" selection-start="209" selection-end="209" vertical-scroll-proportion="0.15706806">
-                  <folding>
-                    <element signature="method#forOne#0;class#FizzBuzzTest#0" expanded="false" />
-                    <element signature="method#shouldReturnFizzFor3s#0;class#FizzBuzzTest#0" expanded="false" />
-                    <element signature="method#shouldReturnFizzBuzzFor5s#0;class#FizzBuzzTest#0" expanded="false" />
-                    <element signature="method#forFifteen#0;class#FizzBuzzTest#0" expanded="false" />
-                    <element signature="method#shouldReturnNumberForOthers#0;class#FizzBuzzTest#0" expanded="false" />
-                    <element signature="method#generateFizzNumbers#0;class#FizzBuzzTest#0" expanded="false" />
-                    <element signature="method#generateBuzzNumbers#0;class#FizzBuzzTest#0" expanded="false" />
-                    <element signature="method#generateFizzBuzzNumbers#0;class#FizzBuzzTest#0" expanded="false" />
-                    <element signature="method#generateOtherNumbers#0;class#FizzBuzzTest#0" expanded="false" />
-                  </folding>
+                <state line="68" column="55" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.33333334">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -118,8 +108,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/pl/pragmatists/pair/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/pl/pragmatists/pair/FizzBuzz.java" />
+        <option value="$PROJECT_DIR$/test/pl/pragmatists/pair/FizzBuzzTest.java" />
       </list>
     </option>
   </component>
@@ -217,9 +207,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -237,7 +227,7 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.FizzBuzzTest">
-    <configuration default="false" name="FizzBuzzTest.forOne" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="FizzBuzzTest.shouldReturnNumberForOne" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
           <option name="PATTERN" value="pl.pragmatists.pair.*" />
@@ -249,7 +239,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="pl.pragmatists.pair" />
       <option name="MAIN_CLASS_NAME" value="pl.pragmatists.pair.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="forOne" />
+      <option name="METHOD_NAME" value="shouldReturnNumberForOne" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -427,7 +417,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.6705491" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294509" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -506,26 +496,16 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/pl/pragmatists/pair/FizzBuzzTest.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/pragmatists/pair/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="209" selection-end="209" vertical-scroll-proportion="0.15706806">
-          <folding>
-            <element signature="method#forOne#0;class#FizzBuzzTest#0" expanded="false" />
-            <element signature="method#shouldReturnFizzFor3s#0;class#FizzBuzzTest#0" expanded="false" />
-            <element signature="method#shouldReturnFizzBuzzFor5s#0;class#FizzBuzzTest#0" expanded="false" />
-            <element signature="method#forFifteen#0;class#FizzBuzzTest#0" expanded="false" />
-            <element signature="method#shouldReturnNumberForOthers#0;class#FizzBuzzTest#0" expanded="false" />
-            <element signature="method#generateFizzNumbers#0;class#FizzBuzzTest#0" expanded="false" />
-            <element signature="method#generateBuzzNumbers#0;class#FizzBuzzTest#0" expanded="false" />
-            <element signature="method#generateFizzBuzzNumbers#0;class#FizzBuzzTest#0" expanded="false" />
-            <element signature="method#generateOtherNumbers#0;class#FizzBuzzTest#0" expanded="false" />
-          </folding>
+        <state line="30" column="34" selection-start="705" selection-end="705" vertical-scroll-proportion="1.168">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/pragmatists/pair/FizzBuzz.java">
+    <entry file="file://$PROJECT_DIR$/test/pl/pragmatists/pair/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="322" selection-end="322" vertical-scroll-proportion="0.31413612">
+        <state line="68" column="55" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
@@ -596,6 +576,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Unnamed</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

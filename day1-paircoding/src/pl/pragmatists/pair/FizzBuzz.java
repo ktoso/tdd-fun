@@ -23,4 +23,14 @@ public class FizzBuzz {
 
     return String.valueOf(i);
   }
+
+  public String play(int max) {
+    StringBuilder sb = new StringBuilder();
+
+    for (int i = 1; i <= max; i++) {
+      sb.append(get(i)).append('\n');
+    }
+
+    return sb.toString();
+  }
 }
