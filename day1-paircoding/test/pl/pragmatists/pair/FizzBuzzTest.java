@@ -76,6 +76,11 @@ public class FizzBuzzTest {
     assertThat(myGame).isEqualTo("1\n2\nFizz\n4\nBuzz\n");
   }
 
+  @Test
+  public void forNumberContainingThree() throws Exception {
+    assertEquals(FizzBuzz.FIZZ, fb.get(32));
+  }
+
   private List<Integer> generateFizzNumbers(int max) {
     ArrayList<Integer> numbers = new ArrayList<Integer>();
     for (int i = 1; i <= max; i++) {
@@ -109,7 +114,9 @@ public class FizzBuzzTest {
   private List<Integer> generateOtherNumbers(int max) {
     ArrayList<Integer> numbers = new ArrayList<Integer>();
     for (int i = 1; i <= max; i++) {
-      if (!(i % FizzBuzz.BUZZ_NUM == 0 || i % FizzBuzz.FIZZ_NUM == 0)) {
+      if (!(i % FizzBuzz.BUZZ_NUM == 0 || i % FizzBuzz.FIZZ_NUM == 0
+          || String.valueOf(i).contains(String.valueOf(FizzBuzz.FIZZ_NUM))
+          || String.valueOf(i).contains(String.valueOf(FizzBuzz.BUZZ_NUM)))) {
         numbers.add(i);
       }
     }

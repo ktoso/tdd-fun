@@ -21,6 +21,18 @@ public class FizzBuzz {
       return FIZZ;
     }
 
+    // new rules
+    String it = String.valueOf(i);
+    if(it.contains(String.valueOf(FIZZ_NUM))){
+      return FIZZ;
+    }
+    if(it.contains(String.valueOf(BUZZ_NUM))){
+      return BUZZ;
+    }
+    if(it.contains(String.valueOf(FIZZ_NUM)) && it.contains(String.valueOf(BUZZ_NUM))){
+      return FIZZBUZZ;
+    }
+
     return String.valueOf(i);
   }
 
