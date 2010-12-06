@@ -6,30 +6,39 @@ public class FizzBuzz {
   public static String BUZZ = "Buzz";
   public static String FIZZBUZZ = FIZZ + BUZZ;
 
-  public static final int FIZZ_NUM = 3;
-  public static final int BUZZ_NUM = 5;
-  public static final int FIZZBUZZ_NUM = FIZZ_NUM * BUZZ_NUM;
+  private int fizzNum = 3;
+  private int buzzNum = 5;
+  private int fizzBuzzNum = fizzNum * buzzNum;
+
+  public FizzBuzz() {
+  }
+
+  public FizzBuzz(int fizzNum, int buzzNum) {
+    this.fizzNum = fizzNum;
+    this.buzzNum = buzzNum;
+    fizzBuzzNum = fizzNum * buzzNum;
+  }
 
   public String get(int i) {
-    if (i % FIZZBUZZ_NUM == 0) {
+    if (i % fizzBuzzNum == 0) {
       return FIZZBUZZ;
     }
-    if (i % BUZZ_NUM == 0) {
+    if (i % buzzNum == 0) {
       return BUZZ;
     }
-    if (i % FIZZ_NUM == 0) {
+    if (i % fizzNum == 0) {
       return FIZZ;
     }
 
     // new rules
     String it = String.valueOf(i);
-    if(it.contains(String.valueOf(FIZZ_NUM))){
+    if(it.contains(String.valueOf(fizzNum))){
       return FIZZ;
     }
-    if(it.contains(String.valueOf(BUZZ_NUM))){
+    if(it.contains(String.valueOf(buzzNum))){
       return BUZZ;
     }
-    if(it.contains(String.valueOf(FIZZ_NUM)) && it.contains(String.valueOf(BUZZ_NUM))){
+    if(it.contains(String.valueOf(fizzNum)) && it.contains(String.valueOf(buzzNum))){
       return FIZZBUZZ;
     }
 
@@ -44,6 +53,18 @@ public class FizzBuzz {
     }
 
     return sb.toString();
+  }
+
+  public int getFizzNum() {
+    return fizzNum;
+  }
+
+  public int getBuzzNum() {
+    return buzzNum;
+  }
+
+  public int getFizzBuzzNum() {
+    return fizzBuzzNum;
   }
 
   public static void main(String... args){
