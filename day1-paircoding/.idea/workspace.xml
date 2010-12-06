@@ -82,7 +82,7 @@
           <file leaf-file-name="FizzBuzz.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/pl/pragmatists/pair/FizzBuzz.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="88" column="0" selection-start="1765" selection-end="1765" vertical-scroll-proportion="0.8987784">
+                <state line="55" column="26" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.5584642">
                   <folding>
                     <element signature="method#FizzBuzz#1;class#FizzBuzz#0" expanded="false" />
                     <element signature="method#get#0;class#FizzBuzz#0" expanded="false" />
@@ -108,7 +108,7 @@
           <file leaf-file-name="FizzBuzzTest.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/pl/pragmatists/pair/FizzBuzzTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="98" column="43" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.37172773">
+                <state line="45" column="0" selection-start="938" selection-end="938" vertical-scroll-proportion="0.4973822">
                   <folding>
                     <element signature="method#shouldReturnNumberForOne#0;class#FizzBuzzTest#0" expanded="false" />
                     <element signature="method#shouldReturnFizz#0;class#FizzBuzzTest#0" expanded="false" />
@@ -465,10 +465,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-9" width="1370" height="755" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="DSM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="98" y="91" width="1170" height="555" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -483,6 +484,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39984825" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18209408" sideWeight="0.6705491" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -564,7 +566,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pl/pragmatists/pair/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="0" selection-start="1765" selection-end="1765" vertical-scroll-proportion="0.8987784">
+        <state line="55" column="26" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.5584642">
           <folding>
             <element signature="method#FizzBuzz#1;class#FizzBuzz#0" expanded="false" />
             <element signature="method#get#0;class#FizzBuzz#0" expanded="false" />
@@ -584,7 +586,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/pl/pragmatists/pair/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="43" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.37172773">
+        <state line="45" column="0" selection-start="938" selection-end="938" vertical-scroll-proportion="0.4973822">
           <folding>
             <element signature="method#shouldReturnNumberForOne#0;class#FizzBuzzTest#0" expanded="false" />
             <element signature="method#shouldReturnFizz#0;class#FizzBuzzTest#0" expanded="false" />
