@@ -22,25 +22,25 @@ public class FizzBuzzTest {
     List<Integer> integers = generateFizzNumbers(100);
 
     for (Integer integer : integers) {
-      assertEquals("should fizz for " + integer, FizzBuzz.FIZZ, fb.get(integer));
+      assertIsFizz(fb.get(integer));
+    }
+  }
+
+  @Test
+  public void shouldReturnBuzz() {
+    List<Integer> integers = generateBuzzNumbers(100);
+
+    for (Integer integer : integers) {
+      assertIsBuzz(fb.get(integer));
     }
   }
 
   @Test
   public void shouldReturnFizzBuzz() {
-    List<Integer> integers = generateBuzzNumbers(100);
-
-    for (Integer integer : integers) {
-      assertEquals("should buzz for " + integer, FizzBuzz.BUZZ, fb.get(integer));
-    }
-  }
-
-  @Test
-  public void ShouldReturnFizzBuzz() {
     List<Integer> integers = generateFizzBuzzNumbers(100);
 
     for (Integer integer : integers) {
-      assertEquals("should fizzbuzz for " + integer, FizzBuzz.FIZZBUZZ, fb.get(integer));
+      assertIsFizzBuzz(fb.get(integer));
     }
   }
 
@@ -49,7 +49,7 @@ public class FizzBuzzTest {
     List<Integer> integers = generateOtherNumbers(100);
 
     for (Integer integer : integers) {
-      assertEquals("should number for " + integer, String.valueOf(integer), fb.get(integer));
+      assertIsNumber(fb.get(integer));
     }
   }
 
@@ -86,7 +86,7 @@ public class FizzBuzzTest {
   }
 
   @Test
-  public void playWithOtherFizzBuzzNumbers() throws Exception {
+  public void playWithOtherFizzBuzzNumbers() {
     fb = new FizzBuzz(2, 5);
 
     String myGame = fb.play(5); //wow, try this for 10!
@@ -94,9 +94,29 @@ public class FizzBuzzTest {
     assertThat(myGame).isEqualTo("1\nFizz\n3\nFizz\nBuzz\n");
   }
 
-  private List<Integer> generateFizzNumbers(int max) {
+  // asserts
+
+  private void assertIsBuzz(String response) {
+    assertEquals("should buzz for " + response, FizzBuzz.BUZZ, response);
+  }
+
+  private void assertIsFizz(String response) {
+    assertEquals("should fizz for " + response, FizzBuzz.FIZZ, response);
+  }
+
+  private void assertIsFizzBuzz(String response) {
+    assertEquals("should fizzbuzz for " + response, FizzBuzz.FIZZBUZZ, response);
+  }
+
+  private void assertIsNumber(String response) {
+    assertEquals("should number for " + response, String.valueOf(response), response);
+  }
+
+  // tools
+
+  private List<Integer> generateFizzNumbers(int upTo) {
     ArrayList<Integer> numbers = new ArrayList<Integer>();
-    for (int i = 1; i <= max; i++) {
+    for (int i = 1; i <= upTo; i++) {
       if ((i % fb.getFizzNum() == 0) && !(i % fb.getFizzBuzzNum() == 0)) {
         numbers.add(i);
       }
@@ -104,9 +124,9 @@ public class FizzBuzzTest {
     return numbers;
   }
 
-  private List<Integer> generateBuzzNumbers(int max) {
+  private List<Integer> generateBuzzNumbers(int upTo) {
     ArrayList<Integer> numbers = new ArrayList<Integer>();
-    for (int i = 1; i <= max; i++) {
+    for (int i = 1; i <= upTo; i++) {
       if ((i % fb.getBuzzNum() == 0) && !(i % fb.getFizzBuzzNum() == 0)) {
         numbers.add(i);
       }
@@ -114,9 +134,9 @@ public class FizzBuzzTest {
     return numbers;
   }
 
-  private List<Integer> generateFizzBuzzNumbers(int max) {
+  private List<Integer> generateFizzBuzzNumbers(int upTo) {
     ArrayList<Integer> numbers = new ArrayList<Integer>();
-    for (int i = 1; i <= max; i++) {
+    for (int i = 1; i <= upTo; i++) {
       if (i % fb.getFizzBuzzNum() == 0) {
         numbers.add(i);
       }
@@ -124,9 +144,9 @@ public class FizzBuzzTest {
     return numbers;
   }
 
-  private List<Integer> generateOtherNumbers(int max) {
+  private List<Integer> generateOtherNumbers(int upTo) {
     ArrayList<Integer> numbers = new ArrayList<Integer>();
-    for (int i = 1; i <= max; i++) {
+    for (int i = 1; i <= upTo; i++) {
       if (!(i % fb.getBuzzNum() == 0 || i % fb.getFizzNum() == 0
           || String.valueOf(i).contains(String.valueOf(fb.getFizzNum()))
           || String.valueOf(i).contains(String.valueOf(fb.getBuzzNum())))) {

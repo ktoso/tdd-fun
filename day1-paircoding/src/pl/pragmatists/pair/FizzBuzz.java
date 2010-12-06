@@ -20,29 +20,49 @@ public class FizzBuzz {
   }
 
   public String get(int i) {
-    if (i % fizzBuzzNum == 0) {
+    if (isDivisableByFizzBuzzNum(i)) {
       return FIZZBUZZ;
     }
-    if (i % buzzNum == 0) {
+    if (isDivisableByBuzzNum(i)) {
       return BUZZ;
     }
-    if (i % fizzNum == 0) {
+    if (isDivisableByFizzNum(i)) {
       return FIZZ;
     }
 
     // new rules
     String it = String.valueOf(i);
-    if(it.contains(String.valueOf(fizzNum))){
+    if (containsFizzNum(it)) {
       return FIZZ;
     }
-    if(it.contains(String.valueOf(buzzNum))){
+    if (containsBuzzNum(it)) {
       return BUZZ;
     }
-    if(it.contains(String.valueOf(fizzNum)) && it.contains(String.valueOf(buzzNum))){
+    if (containsFizzNum(it) && containsBuzzNum(it)) {
       return FIZZBUZZ;
     }
 
     return String.valueOf(i);
+  }
+
+  private boolean containsBuzzNum(String it) {
+    return it.contains(String.valueOf(buzzNum));
+  }
+
+  private boolean containsFizzNum(String it) {
+    return it.contains(String.valueOf(fizzNum));
+  }
+
+  private boolean isDivisableByFizzNum(int i) {
+    return i % fizzNum == 0;
+  }
+
+  private boolean isDivisableByBuzzNum(int i) {
+    return i % buzzNum == 0;
+  }
+
+  private boolean isDivisableByFizzBuzzNum(int i) {
+    return i % fizzBuzzNum == 0;
   }
 
   public String play(int max) {
@@ -67,7 +87,7 @@ public class FizzBuzz {
     return fizzBuzzNum;
   }
 
-  public static void main(String... args){
+  public static void main(String... args) {
     System.out.println(new FizzBuzz().play(100));
   }
 }
