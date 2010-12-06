@@ -17,9 +17,9 @@ import static pl.pragmatists.PrimeFactors.generate;
 public class BetterPrimeFactorsTest {
 
   private List<Integer> expected;
-  private int number;
+  private Integer number;
 
-  public BetterPrimeFactorsTest(List<Integer> expected, int number) {
+  public BetterPrimeFactorsTest(int number, List<Integer> expected) {
     this.expected = expected;
     this.number = number;
   }
@@ -40,7 +40,7 @@ public class BetterPrimeFactorsTest {
   }
 
   @Test
-  public void shouldBeEmptyForOne() {
+  public void testTheprimeFactors() {
     assertEquals(expected, generate(number));
   }
 

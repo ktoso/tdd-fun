@@ -1,5 +1,6 @@
 package pl.pragmatists.assertions;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static junit.framework.Assert.*;
@@ -18,17 +19,20 @@ public class RevertStringTest {
   String word = "word";
 
   @Test
+  @Ignore("there is no implementation for the tested method")
   public void notEmptyWordIsRevertable() throws Exception {
     assertTrue(revertable(word));
   }
 
   @Test
+  @Ignore("there is no implementation for the tested method")
   public void emptyWordIsNotRevertable() throws Exception {
     assertFalse(revertable(""));
     assertFalse(revertable(null));
   }
 
   @Test
+  @Ignore("there is no implementation for the tested method")
   public void revertedPalindromeIsEqualButNotSame() throws Exception {
     String ala = "ala";
     assertEquals(ala, revert(ala));
@@ -36,6 +40,7 @@ public class RevertStringTest {
   }
 
   @Test
+  @Ignore("there is no implementation for the tested method")
   public void revertedNullIsNull() throws Exception {
     assertNull(revert(null));
   }
