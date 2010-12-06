@@ -77,7 +77,7 @@
           <file leaf-file-name="PrimeFactors.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/pl/pragmatists/PrimeFactors.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="50" selection-start="399" selection-end="399" vertical-scroll-proportion="0.39267015">
+                <state line="15" column="50" selection-start="399" selection-end="399" vertical-scroll-proportion="0.4017857">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -110,9 +110,9 @@
             </entry>
           </file>
           <file leaf-file-name="RevertStringTest.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/pl/pragmatists/RevertStringTest.java">
+            <entry file="file://$PROJECT_DIR$/test/pl/pragmatists/assertions/RevertStringTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="36" selection-start="710" selection-end="710" vertical-scroll-proportion="0.60732985">
+                <state line="34" column="36" selection-start="721" selection-end="721" vertical-scroll-proportion="0.6432532">
                   <folding />
                 </state>
               </provider>
@@ -137,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/pl/pragmatists/PrimeFactors.java" />
         <option value="$PROJECT_DIR$/test/pl/pragmatists/BetterPrimeFactorsTest.java" />
         <option value="$PROJECT_DIR$/test/pl/pragmatists/RevertStringTest.java" />
+        <option value="$PROJECT_DIR$/test/pl/pragmatists/assertions/RevertStringTest.java" />
       </list>
     </option>
   </component>
@@ -224,6 +225,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pragmatists" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assertions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testowanko1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -238,12 +261,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -398,7 +421,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-9" width="1370" height="755" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -413,7 +436,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.6705491" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962063" sideWeight="0.6705491" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -497,7 +520,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pl/pragmatists/PrimeFactors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="50" selection-start="399" selection-end="399" vertical-scroll-proportion="0.39267015">
+        <state line="15" column="50" selection-start="399" selection-end="399" vertical-scroll-proportion="0.4017857">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -520,9 +543,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/pl/pragmatists/RevertStringTest.java">
+    <entry file="file://$PROJECT_DIR$/test/pl/pragmatists/assertions/RevertStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="36" selection-start="710" selection-end="710" vertical-scroll-proportion="0.60732985">
+        <state line="34" column="36" selection-start="721" selection-end="721" vertical-scroll-proportion="0.6432532">
           <folding />
         </state>
       </provider>
@@ -593,6 +616,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>fest-assert</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
