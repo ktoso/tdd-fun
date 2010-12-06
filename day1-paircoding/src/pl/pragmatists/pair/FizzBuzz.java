@@ -33,4 +33,8 @@ public class FizzBuzz {
 
     return sb.toString();
   }
+
+  public static void main(String... args){
+    System.out.println(new FizzBuzz().play(100));
+  }
 }

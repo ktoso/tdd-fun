@@ -77,7 +77,7 @@
           <file leaf-file-name="FizzBuzz.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/pl/pragmatists/pair/FizzBuzz.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="34" selection-start="705" selection-end="705" vertical-scroll-proportion="1.168">
+                <state line="32" column="46" selection-start="715" selection-end="715" vertical-scroll-proportion="0.63350785">
                   <folding />
                 </state>
               </provider>
@@ -90,8 +90,10 @@
           <file leaf-file-name="FizzBuzzTest.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/pl/pragmatists/pair/FizzBuzzTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="68" column="55" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.33333334">
-                  <folding />
+                <state line="74" column="26" selection-start="1878" selection-end="1878" vertical-scroll-proportion="0.41884816">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -108,8 +110,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/pl/pragmatists/pair/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/test/pl/pragmatists/pair/FizzBuzzTest.java" />
+        <option value="$PROJECT_DIR$/src/pl/pragmatists/pair/FizzBuzz.java" />
       </list>
     </option>
   </component>
@@ -226,7 +228,7 @@
       <recent name="pl.pragmatists.pair" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest">
+  <component name="RunManager" selected="Application.FizzBuzz">
     <configuration default="false" name="FizzBuzzTest.shouldReturnNumberForOne" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
@@ -286,6 +288,28 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FizzBuzz" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="pl.pragmatists.pair.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="pl.pragmatists.pair.FizzBuzz" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="day1-paircoding" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -365,9 +389,10 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.forOne" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FizzBuzz" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -417,7 +442,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.6705491" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294509" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -498,15 +523,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pl/pragmatists/pair/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="34" selection-start="705" selection-end="705" vertical-scroll-proportion="1.168">
+        <state line="32" column="46" selection-start="715" selection-end="715" vertical-scroll-proportion="0.63350785">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/pl/pragmatists/pair/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="55" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.33333334">
-          <folding />
+        <state line="74" column="26" selection-start="1878" selection-end="1878" vertical-scroll-proportion="0.41884816">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

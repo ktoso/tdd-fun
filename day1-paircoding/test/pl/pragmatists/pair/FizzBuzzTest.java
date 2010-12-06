@@ -58,7 +58,14 @@ public class FizzBuzzTest {
   public void testDoesNotContain15etc() throws Exception {
     String myGame = fb.play(100);
 
-    assertThat(myGame).doesNotContain("15");
+    assertThat(myGame)
+        .doesNotMatch("^5&")
+        .doesNotMatch("^10&")
+        .doesNotMatch("^15&")
+
+        .doesNotMatch("^3&")
+        .doesNotMatch("^9&")
+        .doesNotMatch("^30&");
   }
 
   // another idea, covering the game, but not in full, but good enough
