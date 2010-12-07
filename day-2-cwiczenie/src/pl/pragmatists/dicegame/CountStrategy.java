@@ -10,14 +10,14 @@ public enum CountStrategy {
   PAIR(new MultipleValueStrategy(2)),
   TRIPLET(new MultipleValueStrategy(3));
 
-  private YahtzeeCountingStrategy countPoints;
+  private YahtzeeCountingStrategy countingStrategy;
 
-  CountStrategy(YahtzeeCountingStrategy singleValueStrategy) {
-    this.countPoints = singleValueStrategy;
+  CountStrategy(YahtzeeCountingStrategy countingStrategy) {
+    this.countingStrategy = countingStrategy;
   }
 
-  public int countPoints(int... dice) {
-    return countPoints.countPoints(dice);
+  public int countPoints(Roll roll) {
+    return countingStrategy.countPoints(roll);
   }
 }
 

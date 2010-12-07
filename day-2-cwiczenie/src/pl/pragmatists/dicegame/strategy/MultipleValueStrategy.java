@@ -1,5 +1,9 @@
 package pl.pragmatists.dicegame.strategy;
 
+import pl.pragmatists.dicegame.Roll;
+
+import java.util.Arrays;
+
 public class MultipleValueStrategy implements YahtzeeCountingStrategy {
 
   private int pairOrTripletEtc;
@@ -9,11 +13,11 @@ public class MultipleValueStrategy implements YahtzeeCountingStrategy {
   }
 
   @Override
-  public int countPoints(int... dice) {
-    return findBiggestTupleValue(dice);
+  public int countPoints(Roll dice) {
+    return findBiggestTupleValue(dice.getDice().toArray(new Integer[0]));
   }
 
-  private int findBiggestTupleValue(int[] diceCount) {
+  private int findBiggestTupleValue(Integer[] diceCount) {
     int[] diceCnt = countDices(diceCount);
 
     for (int i = diceCnt.length - 1; i >= 0; --i) {
@@ -24,7 +28,7 @@ public class MultipleValueStrategy implements YahtzeeCountingStrategy {
     return 0;
   }
 
-  private static int max(int[] arr) {
+  private static int max(Integer[] arr) {
     int maxSoFar = arr[0];
     for (int num : arr) {
       if (num > maxSoFar) {
@@ -34,7 +38,7 @@ public class MultipleValueStrategy implements YahtzeeCountingStrategy {
     return maxSoFar;
   }
 
-  private static int[] countDices(int[] dice) {
+  private static int[] countDices(Integer[] dice) {
     int biggestDice = max(dice);
 
     int diceCnt[] = new int[biggestDice + 1];
