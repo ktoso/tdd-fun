@@ -74,19 +74,19 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="Game.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/pl/pragmatists/dicegame/Game.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="19" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
+                <state line="3" column="15" selection-start="54" selection-end="54" vertical-scroll-proportion="0.08035714">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CountStrategy.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="CountStrategy.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/pl/pragmatists/dicegame/CountStrategy.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="9" selection-start="99" selection-end="99" vertical-scroll-proportion="0.13089006">
+                <state line="5" column="9" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
                   <folding>
                     <element signature="class#99:216" expanded="false" />
                     <element signature="method#countPoints#0;class#99:216" expanded="false" />
@@ -108,7 +108,7 @@
           <file leaf-file-name="DiceThrowTests.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/pl/pragmatists/dicegame/DiceThrowTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="18" selection-start="721" selection-end="721" vertical-scroll-proportion="0.7068063">
+                <state line="9" column="26" selection-start="167" selection-end="167" vertical-scroll-proportion="0.24107143">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -492,7 +492,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-9" width="1370" height="755" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -507,7 +507,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.6705491" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962063" sideWeight="0.6705491" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2046589" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -589,25 +589,54 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pl/pragmatists/dicegame/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pl/pragmatists/dicegame/DiceThrowTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="18" selection-start="721" selection-end="721" vertical-scroll-proportion="0.7068063">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="uml://JAVA/pl.pragmatists.dicegame">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pl.pragmatists.dicegame</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">pl.pragmatists.dicegame.CountStrategy</node>
+            <node x="19.09375" y="242.0">pl.pragmatists.dicegame.DiceThrowTests</node>
+            <node x="37.15625" y="163.0">pl.pragmatists.dicegame.Game</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="pl.pragmatists.dicegame.DiceThrowTests" target="pl.pragmatists.dicegame.Game">
+              <point x="-45.0" y="-25.0" />
+              <point x="41.59375" y="217.0" />
+              <point x="54.40625" y="217.0" />
+              <point x="-17.25" y="14.5" />
+            </edge>
+            <edge source="pl.pragmatists.dicegame.Game" target="pl.pragmatists.dicegame.CountStrategy">
+              <point x="0.0" y="-14.5" />
+              <point x="71.65625" y="138.0" />
+              <point x="47.5" y="138.0" />
+              <point x="-47.5" y="56.5" />
+            </edge>
+            <edge source="pl.pragmatists.dicegame.DiceThrowTests" target="pl.pragmatists.dicegame.CountStrategy">
+              <point x="45.0" y="-25.0" />
+              <point x="131.59375" y="217.0" />
+              <point x="116.65625" y="217.0" />
+              <point x="116.65625" y="138.0" />
+              <point x="142.5" y="138.0" />
+              <point x="47.5" y="56.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="95.0" y="146.0" />
+          <SelectedNodes>
+            <node>pl.pragmatists.dicegame.CountStrategy</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/pragmatists/dicegame/CountStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="99" selection-end="99" vertical-scroll-proportion="0.13089006">
+        <state line="5" column="9" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="class#99:216" expanded="false" />
             <element signature="method#countPoints#0;class#99:216" expanded="false" />
@@ -618,6 +647,22 @@
             <element signature="method#max#0;class#CountStrategy#0" expanded="false" />
             <element signature="method#countDices#0;class#CountStrategy#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pl/pragmatists/dicegame/DiceThrowTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="26" selection-start="167" selection-end="167" vertical-scroll-proportion="0.24107143">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/pragmatists/dicegame/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="15" selection-start="54" selection-end="54" vertical-scroll-proportion="0.08035714">
+          <folding />
         </state>
       </provider>
     </entry>
