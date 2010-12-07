@@ -86,8 +86,17 @@
           <file leaf-file-name="CountStrategy.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/pl/pragmatists/dicegame/CountStrategy.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="7" selection-start="226" selection-end="226" vertical-scroll-proportion="0.28795812">
-                  <folding />
+                <state line="5" column="9" selection-start="99" selection-end="99" vertical-scroll-proportion="0.13089006">
+                  <folding>
+                    <element signature="class#99:216" expanded="false" />
+                    <element signature="method#countPoints#0;class#99:216" expanded="false" />
+                    <element signature="method#CountStrategy#1;class#CountStrategy#0" expanded="false" />
+                    <element signature="method#countPoints#0;class#CountStrategy#0" expanded="false" />
+                    <element signature="method#findBiggestTupleValueByN#0;class#CountStrategy#0" expanded="false" />
+                    <element signature="method#findBiggestTupleValue#0;class#CountStrategy#0" expanded="false" />
+                    <element signature="method#max#0;class#CountStrategy#0" expanded="false" />
+                    <element signature="method#countDices#0;class#CountStrategy#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -598,8 +607,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/pragmatists/dicegame/CountStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="226" selection-end="226" vertical-scroll-proportion="0.28795812">
-          <folding />
+        <state line="5" column="9" selection-start="99" selection-end="99" vertical-scroll-proportion="0.13089006">
+          <folding>
+            <element signature="class#99:216" expanded="false" />
+            <element signature="method#countPoints#0;class#99:216" expanded="false" />
+            <element signature="method#CountStrategy#1;class#CountStrategy#0" expanded="false" />
+            <element signature="method#countPoints#0;class#CountStrategy#0" expanded="false" />
+            <element signature="method#findBiggestTupleValueByN#0;class#CountStrategy#0" expanded="false" />
+            <element signature="method#findBiggestTupleValue#0;class#CountStrategy#0" expanded="false" />
+            <element signature="method#max#0;class#CountStrategy#0" expanded="false" />
+            <element signature="method#countDices#0;class#CountStrategy#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -10,21 +10,7 @@ public enum CountStrategy {
     }
   };
 
-  private static int findBiggestTupleValueByN(int[] dices, int n) {
-    int[] diceCnt = countDices(dices);
-
-    return findBiggestTuple(diceCnt, n);
-  }
-
-  private static int findBiggestTuple(int[] diceCnt, int howBigTuple) {
-    //find biggest pair
-    for (int i = diceCnt.length - 1; i >= 0; --i) {
-      if (diceCnt[i] >= howBigTuple) {
-        return i * howBigTuple;
-      }
-    }
-    return 0;
-  }
+  private int lookForWhat;
 
   CountStrategy() {
   }
@@ -34,8 +20,6 @@ public enum CountStrategy {
     lookForWhat = i;
   }
 
-  private int lookForWhat;
-
   public int countPoints(int... dices) {
     int points = 0;
     for (int dice : dices) {
@@ -44,6 +28,22 @@ public enum CountStrategy {
       }
     }
     return points;
+  }
+
+  private static int findBiggestTupleValueByN(int[] dices, int n) {
+    int[] diceCnt = countDices(dices);
+
+    return findBiggestTupleValue(diceCnt, n);
+  }
+
+  private static int findBiggestTupleValue(int[] diceCnt, int howBigTuple) {
+    //find biggest pair
+    for (int i = diceCnt.length - 1; i >= 0; --i) {
+      if (diceCnt[i] >= howBigTuple) {
+        return i * howBigTuple;
+      }
+    }
+    return 0;
   }
 
   private static int max(int[] arr) {
