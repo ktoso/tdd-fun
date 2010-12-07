@@ -1,0 +1,14 @@
+1. Wyślij piaskarkę (sander) tylko jeśli temepratura będzie poniżej 0 C
+
+2. Wyślij pług (snowplow) tylko jeśli opady śniegu przekroczą 3 mm
+	1a) jeśli pług nawali (snowplow malfunctioning) - wyślij kolejny
+		
+3. Wyślij dwa pługi tylko jeśli opady śniegu przekroczą 5 mm
+
+4. Najpierw wyślij trzy pługi, potem piaskarkę a potem powiadom prasę, 
+	jeśli temperatura będzie poniżej -10 i opady śniegu przekroczą 10 mm  
+	
+	Systemy zewnętrzne:
+	WeatherForecastService
+	MunicipalServices
+	PressService
