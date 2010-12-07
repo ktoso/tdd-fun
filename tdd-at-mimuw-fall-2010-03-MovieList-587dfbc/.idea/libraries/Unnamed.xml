@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Unnamed">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/vendor/mockito-all-1.8.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/fest/fest-util-1.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/fest/fest-assert-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/junit/junit-4.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/fest/fest-swing-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/fest/fest-reflect-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
