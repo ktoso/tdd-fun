@@ -61,7 +61,7 @@ public class NumbersTest {
     String[] first = {"1", "2"};
     String[] second = {"3", "4"};
 
-    String[] strings = clock.cons(first, second);
+    String[] strings = clock.append(first, second);
     assertEquals(strings[0], "1 3");
     assertEquals(strings[1], "2 4");
   }

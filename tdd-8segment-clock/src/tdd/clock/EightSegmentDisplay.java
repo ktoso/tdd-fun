@@ -9,57 +9,67 @@ import java.util.List;
 
 public class EightSegmentDisplay {
 
-  private enum Conversion {
-    ZERO(0, " - ",
+  private enum Digit {
+    ZERO(0,
+        " - ",
         "| |",
         "   ",
         "| |",
         " - "),
-    ONE(1, "   ",
+    ONE(1,
+        "   ",
         "  |",
         "   ",
         "  |",
         "   "),
 
-    TWO(2, " - ",
+    TWO(2,
+        " - ",
         "  |",
         " - ",
         "|  ",
         " - "),
-    THREE(3, " - ",
+    THREE(3,
+        " - ",
         "  |",
         " - ",
         "  |",
         " - "),
 
-    FOUR(4, "   ",
+    FOUR(4,
+        "   ",
         "| |",
         " - ",
         "  |",
         "   "),
 
-    FIVE(5, " - ",
+    FIVE(5,
+        " - ",
         "|  ",
         " - ",
         "  |",
         " - "),
 
-    SIX(6, " - ",
+    SIX(6,
+        " - ",
         "|  ",
         " - ",
         "| |",
         " - "),
-    SEVEN(7, " - ",
+    SEVEN(7,
+        " - ",
         "  |",
         "   ",
         "  |",
         "   "),
-    EIGHT(8, " - ",
+    EIGHT(8,
+        " - ",
         "| |",
         " - ",
         "| |",
         " - "),
-    NINE(9, " - ",
+    NINE(9,
+        " - ",
         "| |",
         " - ",
         "  |",
@@ -68,25 +78,27 @@ public class EightSegmentDisplay {
     private final Integer number;
 
     private final String[] conversion;
+    private final EightSegmentDigit segmentNumber;
 
-    Conversion(Integer number, String... conversion) {
+    Digit(Integer number, String... conversion) {
       this.number = number;
       this.conversion = conversion;
+      segmentNumber = new EightSegmentDigit(conversion);
     }
 
     public String printDigit() {
       return Joiner.on("\n").join(conversion) + "\n";
     }
 
-    public static Conversion chooseEnum(int number) {
-      return Conversion.values()[number];
+    public static Digit chooseEnum(int number) {
+      return Digit.values()[number];
     }
 
   }
 
   public String printOneDigit(int number) {
-    Conversion conversion = Conversion.chooseEnum(number);
-    return conversion.printDigit();
+    Digit digit = Digit.chooseEnum(number);
+    return digit.printDigit();
   }
 
   public String printNumber(int number) {
@@ -94,31 +106,38 @@ public class EightSegmentDisplay {
       return printOneDigit(number);
     }
 
-    List<Integer> stack = new LinkedList<Integer>();
-    while (number > 0) {
-      stack.add(number % 10);
-      number /= 10;
+    List<Integer> stack = disassembleNumber(number);
+
+    return convertAndConcat(stack);
+  }
+
+  private String convertAndConcat(List<Integer> list) {
+    String[] almostResult = Digit.chooseEnum(list.get(0)).conversion;
+
+    for (int i = 1; i < list.size(); i++) {
+      Digit digit = Digit.chooseEnum(list.get(i));
+      almostResult = append(almostResult, digit.conversion);
     }
-
-    stack = Lists.reverse(stack);
-
-    String[] almostResult;
-    almostResult = Conversion.chooseEnum(stack.get(0)).conversion;
-
-    for (int i = 1; i < stack.size(); i++) {
-      Conversion conversion = Conversion.chooseEnum(stack.get(i));
-      almostResult = cons(almostResult, conversion.conversion);
-    }
-
     return Joiner.on("\n").join(almostResult) + "\n";
   }
 
-  public String[] cons(String[] car, String[] cdr) {
-    assert car.length == cdr.length : "Can't do that";
+  private List<Integer> disassembleNumber(int number) {
+    List<Integer> list = new LinkedList<Integer>();
+    while (number > 0) {
+      list.add(number % 10);
+      number /= 10;
+    }
 
-    String[] strings = new String[car.length];
-    for (int i = 0; i < car.length; ++i) {
-      strings[i] = String.format("%s %s", car[i], cdr[i]);
+    list = Lists.reverse(list);
+    return list;
+  }
+
+  public String[] append(String[] appendTo, String[] appendThis) {
+    assert appendTo.length == appendThis.length : "Can't do that";
+
+    String[] strings = new String[appendTo.length];
+    for (int i = 0; i < appendTo.length; ++i) {
+      strings[i] = String.format("%s %s", appendTo[i], appendThis[i]);
     }
     return strings;
   }
