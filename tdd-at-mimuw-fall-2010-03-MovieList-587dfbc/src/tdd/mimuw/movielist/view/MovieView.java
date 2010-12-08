@@ -14,5 +14,7 @@ public interface MovieView {
 
 	Movie getSelectedMovie();
 
-  JButton getDeleteField();
+  void setDeleteButtonEnabled(boolean enabled);
+
+  void showMessage(String message);
 }

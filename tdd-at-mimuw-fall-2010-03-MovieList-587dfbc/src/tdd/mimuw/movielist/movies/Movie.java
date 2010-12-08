@@ -16,7 +16,11 @@ public class Movie {
 		return result;
 	}
 
-	@Override
+  public String getName() {
+    return name;
+  }
+
+  @Override
 	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;

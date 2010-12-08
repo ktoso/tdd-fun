@@ -20,12 +20,12 @@ public class SwingMovieListShould extends FestSwingTestCaseTemplate {
 	@Before
 	public void onSetUp() {
 		setUpRobot();
-		MainApplicationFrame frame = createMainApplicationFramInSwingThread();
+		MainApplicationFrame frame = createMainApplicationFrameInSwingThread();
 		window = new FrameFixture(robot(), frame);
 		window.show();
 	}
 
-	private MainApplicationFrame createMainApplicationFramInSwingThread() {
+	private MainApplicationFrame createMainApplicationFrameInSwingThread() {
 		MainApplicationFrame frame = GuiActionRunner
 				.execute(new GuiQuery<MainApplicationFrame>() {
 					protected MainApplicationFrame executeInEDT() {
@@ -50,7 +50,7 @@ public class SwingMovieListShould extends FestSwingTestCaseTemplate {
 	public void notifyObserverOnAdd() throws Exception {
 		window.button("Add").click();
 
-		verify(guiEventObserver).add();
+		verify(guiEventObserver).onAddMovieClicked();
 	}
 
 }

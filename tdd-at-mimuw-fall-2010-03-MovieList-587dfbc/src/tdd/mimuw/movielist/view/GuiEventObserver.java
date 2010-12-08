@@ -2,6 +2,9 @@ package tdd.mimuw.movielist.view;
 
 public interface GuiEventObserver {
 
-	void add();
+	void onAddMovieClicked();
 
+  void onMovieSelected();
+
+  void onRemoveMovieClicked();
 }

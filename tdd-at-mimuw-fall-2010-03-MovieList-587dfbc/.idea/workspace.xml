@@ -32,6 +32,34 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/test/tdd/mimuw/movielist/presenter/MoviePresenterShould.java" line="80" class="tdd.mimuw.movielist.presenter.MoviePresenterShould" package="tdd.mimuw.movielist.presenter">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/test/tdd/mimuw/movielist/presenter/MoviePresenterShould.java" line="29" class="tdd.mimuw.movielist.presenter.MoviePresenterShould" package="tdd.mimuw.movielist.presenter">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -75,46 +103,16 @@
       <file leaf-file-name="MoviePresenterShould.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/tdd/mimuw/movielist/presenter/MoviePresenterShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="57" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="method#movieTitled#0;class#MoviePresenterShould#0" expanded="false" />
-                <element signature="method#presenterWithNoMovies#0;class#MoviePresenterShould#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SwingMovieListShould.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/tdd/mimuw/movielist/view/SwingMovieListShould.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="60" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.0">
+            <state line="29" column="0" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieListModelShould.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/tdd/mimuw/movielist/view/MovieListModelShould.java">
+      <file leaf-file-name="DuplicateTitleException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/presenter/DuplicateTitleException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="34" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationRunner.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/ApplicationRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="67" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Movie.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/movies/Movie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+            <state line="2" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -123,27 +121,46 @@
       <file leaf-file-name="MovieListPresenter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/presenter/MovieListPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="65" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.72875226">
+            <state line="44" column="2" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.6076696">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#MovieListPresenter#0;class#MovieListPresenter#0" expanded="false" />
+                <element signature="method#toggleDeleteButtonState#0;class#MovieListPresenter#0" expanded="false" />
+                <element signature="method#onRemoveMovieClicked#0;class#MovieListPresenter#0" expanded="false" />
+                <element signature="method#removeSelectedMovie#0;class#MovieListPresenter#0" expanded="false" />
+                <element signature="method#removeMovie#0;class#MovieListPresenter#0" expanded="false" />
+                <element signature="method#hasText#0;class#MovieListPresenter#0" expanded="false" />
+                <element signature="method#getMovies#0;class#MovieListPresenter#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NoTextException.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/presenter/NoTextException.java">
+      <file leaf-file-name="Movie.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/movies/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="53" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
+            <state line="18" column="27" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="method#Movie#0;class#Movie#0" expanded="false" />
+                <element signature="method#hashCode#0;class#Movie#0" expanded="false" />
+                <element signature="method#toString#0;class#Movie#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.7.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="43" selection-start="434" selection-end="434" vertical-scroll-proportion="-6.6">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieListModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/view/MovieListModel.java">
+      <file leaf-file-name="ApplicationRunner.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/ApplicationRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="10" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,7 +169,7 @@
       <file leaf-file-name="MovieView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/view/MovieView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+            <state line="16" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,22 +178,28 @@
       <file leaf-file-name="SwingMovieList.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/view/SwingMovieList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="18" selection-start="2281" selection-end="2281" vertical-scroll-proportion="0.0">
+            <state line="87" column="24" selection-start="2353" selection-end="2353" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="class#DeleteAction#0;class#SwingMovieList#0" expanded="false" />
-                <element signature="method#DeleteAction#0;class#DeleteAction#0;class#SwingMovieList#0" expanded="false" />
-                <element signature="method#actionPerformed#0;class#DeleteAction#0;class#SwingMovieList#0" expanded="false" />
-                <element signature="class#AddAction#0;class#SwingMovieList#0" expanded="false" />
-                <element signature="method#AddAction#0;class#AddAction#0;class#SwingMovieList#0" expanded="false" />
-                <element signature="method#actionPerformed#0;class#AddAction#0;class#SwingMovieList#0" expanded="false" />
-                <element signature="method#SwingMovieList#0;class#SwingMovieList#0" expanded="false" />
-                <element signature="method#layoutComponents#0;class#SwingMovieList#0" expanded="false" />
-                <element signature="method#createComponents#0;class#SwingMovieList#0" expanded="false" />
-                <element signature="method#observeWith#0;class#SwingMovieList#0" expanded="false" />
-                <element signature="method#getNewTitle#0;class#SwingMovieList#0" expanded="false" />
-                <element signature="method#showMovies#0;class#SwingMovieList#0" expanded="false" />
-                <element signature="method#getSelectedMovie#0;class#SwingMovieList#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieListModel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/view/MovieListModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="17" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieListModelShould.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/tdd/mimuw/movielist/view/MovieListModelShould.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="45" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -193,8 +216,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/tdd/mimuw/movielist/presenter/NoTextException.java" />
         <option value="$PROJECT_DIR$/src/tdd/mimuw/movielist/ApplicationRunner.java" />
-        <option value="$PROJECT_DIR$/test/tdd/mimuw/movielist/presenter/MoviePresenterShould.java" />
+        <option value="$PROJECT_DIR$/src/tdd/mimuw/movielist/view/GuiEventObserver.java" />
+        <option value="$PROJECT_DIR$/test/tdd/mimuw/movielist/view/SwingMovieListShould.java" />
+        <option value="$PROJECT_DIR$/src/tdd/mimuw/movielist/view/MovieView.java" />
         <option value="$PROJECT_DIR$/src/tdd/mimuw/movielist/view/SwingMovieList.java" />
+        <option value="$PROJECT_DIR$/src/tdd/mimuw/movielist/view/MovieListModel.java" />
+        <option value="$PROJECT_DIR$/src/tdd/mimuw/movielist/movies/Movie.java" />
+        <option value="$PROJECT_DIR$/src/tdd/mimuw/movielist/presenter/DuplicateTitleException.java" />
+        <option value="$PROJECT_DIR$/test/tdd/mimuw/movielist/presenter/MoviePresenterShould.java" />
         <option value="$PROJECT_DIR$/src/tdd/mimuw/movielist/presenter/MovieListPresenter.java" />
       </list>
     </option>
@@ -219,7 +248,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -234,6 +263,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,56 +279,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="junit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -432,9 +412,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -456,7 +435,7 @@
       <recent name="tdd.mimuw.movielist.presenter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ApplicationRunner">
+  <component name="RunManager" selected="JUnit.all">
     <configuration default="false" name="ApplicationRunner" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
@@ -479,7 +458,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="tdd.mimuw.movielist" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="all" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tdd.mimuw.movielist.*" />
@@ -489,7 +468,7 @@
       <module name="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="tdd.mimuw.movielist" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -503,63 +482,13 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="39342" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SwingMovieListShould.notifyObserverOnAdd" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="tdd.mimuw.movielist.view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tdd.mimuw.movielist.view" />
-      <option name="MAIN_CLASS_NAME" value="tdd.mimuw.movielist.view.SwingMovieListShould" />
-      <option name="METHOD_NAME" value="notifyObserverOnAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MoviePresenterShould" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="tdd.mimuw.movielist.presenter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tdd.mimuw.movielist.presenter" />
-      <option name="MAIN_CLASS_NAME" value="tdd.mimuw.movielist.presenter.MoviePresenterShould" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -706,11 +635,9 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="4">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.ApplicationRunner" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.tdd.mimuw.movielist" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SwingMovieListShould.notifyObserverOnAdd" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MoviePresenterShould" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.all" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -743,26 +670,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="-9" width="1370" height="755" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1364" height="741" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24905087" sideWeight="0.6566667" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24790236" sideWeight="0.6587031" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34333333" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34129694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -841,6 +768,30 @@
     </option>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/MainApplicationFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/presenter/EmptyTitleException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="53" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/tdd/mimuw/movielist/view/SwingMovieListShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/vendor/fest/fest-assert-1.2.jar!/org/fest/assertions/Collections.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="163" selection-end="163" vertical-scroll-proportion="0.119760476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/view/GuiEventObserver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="17" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
@@ -848,98 +799,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/MainApplicationFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/view/MovieView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+        <state line="16" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/presenter/NoTextException.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.7.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="53" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
+        <state line="12" column="43" selection-start="434" selection-end="434" vertical-scroll-proportion="-6.6">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/ApplicationRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="67" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/movies/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/tdd/mimuw/movielist/view/SwingMovieListShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="60" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/tdd/mimuw/movielist/view/MovieListModelShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="34" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
+        <state line="20" column="0" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/view/MovieListModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="10" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
+        <state line="23" column="17" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/tdd/mimuw/movielist/view/MovieListModelShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="45" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/view/SwingMovieList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="24" selection-start="2353" selection-end="2353" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/movies/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="27" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#Movie#0;class#Movie#0" expanded="false" />
+            <element signature="method#hashCode#0;class#Movie#0" expanded="false" />
+            <element signature="method#toString#0;class#Movie#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/presenter/DuplicateTitleException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/tdd/mimuw/movielist/presenter/MoviePresenterShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="57" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#movieTitled#0;class#MoviePresenterShould#0" expanded="false" />
-            <element signature="method#presenterWithNoMovies#0;class#MoviePresenterShould#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/view/SwingMovieList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="18" selection-start="2281" selection-end="2281" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="class#DeleteAction#0;class#SwingMovieList#0" expanded="false" />
-            <element signature="method#DeleteAction#0;class#DeleteAction#0;class#SwingMovieList#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#DeleteAction#0;class#SwingMovieList#0" expanded="false" />
-            <element signature="class#AddAction#0;class#SwingMovieList#0" expanded="false" />
-            <element signature="method#AddAction#0;class#AddAction#0;class#SwingMovieList#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#AddAction#0;class#SwingMovieList#0" expanded="false" />
-            <element signature="method#SwingMovieList#0;class#SwingMovieList#0" expanded="false" />
-            <element signature="method#layoutComponents#0;class#SwingMovieList#0" expanded="false" />
-            <element signature="method#createComponents#0;class#SwingMovieList#0" expanded="false" />
-            <element signature="method#observeWith#0;class#SwingMovieList#0" expanded="false" />
-            <element signature="method#getNewTitle#0;class#SwingMovieList#0" expanded="false" />
-            <element signature="method#showMovies#0;class#SwingMovieList#0" expanded="false" />
-            <element signature="method#getSelectedMovie#0;class#SwingMovieList#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/view/MovieView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+        <state line="29" column="0" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/presenter/MovieListPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="65" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.72875226">
+        <state line="44" column="2" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.6076696">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#MovieListPresenter#0;class#MovieListPresenter#0" expanded="false" />
+            <element signature="method#toggleDeleteButtonState#0;class#MovieListPresenter#0" expanded="false" />
+            <element signature="method#onRemoveMovieClicked#0;class#MovieListPresenter#0" expanded="false" />
+            <element signature="method#removeSelectedMovie#0;class#MovieListPresenter#0" expanded="false" />
+            <element signature="method#removeMovie#0;class#MovieListPresenter#0" expanded="false" />
+            <element signature="method#hasText#0;class#MovieListPresenter#0" expanded="false" />
+            <element signature="method#getMovies#0;class#MovieListPresenter#0" expanded="false" />
           </folding>
         </state>
       </provider>
