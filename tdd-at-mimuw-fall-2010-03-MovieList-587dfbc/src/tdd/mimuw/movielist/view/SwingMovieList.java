@@ -73,6 +73,7 @@ public class SwingMovieList extends JPanel implements MovieView {
     delete = new JButton(new DeleteAction());
     delete.setName("Delete");
     newMovieTitle = new JTextField(26);
+    newMovieTitle.setName("TitleInput");
   }
 
   public void observeWith(GuiEventObserver guiEventObserver) {

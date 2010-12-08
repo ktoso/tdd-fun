@@ -14,8 +14,8 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e0884ff-c7fb-4a63-ba2a-250552f2d8b4" name="Default" comment="" />
-    <ignored path="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc.iws" />
+    <list default="true" id="4b84dd4a-21d8-46ad-8e90-bbaac4c69135" name="Default" comment="" />
+    <ignored path="tdd-8segment-clock.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,34 +32,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/test/tdd/mimuw/movielist/presenter/MoviePresenterShould.java" line="80" class="tdd.mimuw.movielist.presenter.MoviePresenterShould" package="tdd.mimuw.movielist.presenter">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/test/tdd/mimuw/movielist/presenter/MoviePresenterShould.java" line="29" class="tdd.mimuw.movielist.presenter.MoviePresenterShould" package="tdd.mimuw.movielist.presenter">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -96,113 +68,35 @@
     <ui_properties />
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
+    <favorites_list name="tdd-8segment-clock" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MoviePresenterShould.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/tdd/mimuw/movielist/presenter/MoviePresenterShould.java">
+      <file leaf-file-name="DigitsTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/tdd/clock/DigitsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0">
+            <state line="100" column="0" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SwingMovieListShould.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/tdd/mimuw/movielist/view/SwingMovieListShould.java">
+      <file leaf-file-name="NumbersTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/tdd/clock/NumbersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="30" selection-start="1884" selection-end="1884" vertical-scroll-proportion="0.7773655">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#plzWait#0;class#SwingMovieListShould#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DuplicateTitleException.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/presenter/DuplicateTitleException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
+            <state line="68" column="2" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieListPresenter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/presenter/MovieListPresenter.java">
+      <file leaf-file-name="EightSegmentDisplay.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tdd/clock/EightSegmentDisplay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="30" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="method#MovieListPresenter#0;class#MovieListPresenter#0" expanded="false" />
-                <element signature="method#toggleDeleteButtonState#0;class#MovieListPresenter#0" expanded="false" />
-                <element signature="method#onRemoveMovieClicked#0;class#MovieListPresenter#0" expanded="false" />
-                <element signature="method#removeSelectedMovie#0;class#MovieListPresenter#0" expanded="false" />
-                <element signature="method#removeMovie#0;class#MovieListPresenter#0" expanded="false" />
-                <element signature="method#hasText#0;class#MovieListPresenter#0" expanded="false" />
-                <element signature="method#getMovies#0;class#MovieListPresenter#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Movie.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/movies/Movie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="27" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="method#Movie#0;class#Movie#0" expanded="false" />
-                <element signature="method#hashCode#0;class#Movie#0" expanded="false" />
-                <element signature="method#toString#0;class#Movie#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.7.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="43" selection-start="434" selection-end="434" vertical-scroll-proportion="-6.6">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationRunner.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/ApplicationRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SwingMovieList.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/view/SwingMovieList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="27" selection-start="2140" selection-end="2150" vertical-scroll-proportion="0.0">
+            <state line="110" column="25" selection-start="2123" selection-end="2123" vertical-scroll-proportion="0.6505376">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovieListModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/view/MovieListModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="17" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovieListModelShould.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/tdd/mimuw/movielist/view/MovieListModelShould.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -217,17 +111,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/tdd/mimuw/movielist/presenter/NoTextException.java" />
-        <option value="$PROJECT_DIR$/src/tdd/mimuw/movielist/ApplicationRunner.java" />
-        <option value="$PROJECT_DIR$/src/tdd/mimuw/movielist/view/GuiEventObserver.java" />
-        <option value="$PROJECT_DIR$/src/tdd/mimuw/movielist/view/MovieView.java" />
-        <option value="$PROJECT_DIR$/src/tdd/mimuw/movielist/view/MovieListModel.java" />
-        <option value="$PROJECT_DIR$/src/tdd/mimuw/movielist/movies/Movie.java" />
-        <option value="$PROJECT_DIR$/src/tdd/mimuw/movielist/presenter/DuplicateTitleException.java" />
-        <option value="$PROJECT_DIR$/test/tdd/mimuw/movielist/presenter/MoviePresenterShould.java" />
-        <option value="$PROJECT_DIR$/src/tdd/mimuw/movielist/presenter/MovieListPresenter.java" />
-        <option value="$PROJECT_DIR$/src/tdd/mimuw/movielist/view/SwingMovieList.java" />
-        <option value="$PROJECT_DIR$/test/tdd/mimuw/movielist/view/SwingMovieListShould.java" />
+        <option value="$PROJECT_DIR$/test/tdd/clock/OldClock.java" />
+        <option value="$PROJECT_DIR$/src/OldClock.java" />
+        <option value="$PROJECT_DIR$/src/tdd/clock/OldClock.java" />
+        <option value="$PROJECT_DIR$/test/tdd/clock/DigitsTest.java" />
+        <option value="/XHTML Fragment (NumbersTest.java:1888).xhtml" />
+        <option value="$PROJECT_DIR$/test/tdd/clock/NumbersTest.java" />
+        <option value="$PROJECT_DIR$/src/tdd/clock/EightSegmentDisplay.java" />
       </list>
     </option>
   </component>
@@ -259,39 +149,40 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages ProjectPane="true" />
+      <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
+              <option name="myItemId" value="tdd-8segment-clock" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
+              <option name="myItemId" value="tdd-8segment-clock" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
+              <option name="myItemId" value="tdd-8segment-clock" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
+              <option name="myItemId" value="tdd-8segment-clock" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
+              <option name="myItemId" value="tdd-8segment-clock" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -299,43 +190,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="movielist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
+              <option name="myItemId" value="clock" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
+              <option name="myItemId" value="tdd-8segment-clock" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movielist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
+              <option name="myItemId" value="tdd-8segment-clock" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -343,87 +208,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="movielist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movielist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movielist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movielist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
+              <option name="myItemId" value="clock" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
@@ -434,80 +232,83 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tdd.clock" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="tdd.mimuw.movielist.presenter" />
+      <recent name="tdd.clock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ApplicationRunner">
-    <configuration default="false" name="ApplicationRunner" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="JUnit.NumbersTest">
+    <configuration default="false" name="NumbersTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
-          <option name="PATTERN" value="tdd.mimuw.movielist.*" />
+          <option name="PATTERN" value="tdd.clock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="tdd.mimuw.movielist.ApplicationRunner" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="tdd-8segment-clock" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="all" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tdd.mimuw.movielist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PACKAGE_NAME" value="tdd.clock" />
+      <option name="MAIN_CLASS_NAME" value="tdd.clock.NumbersTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
+        <value defaultName="moduleWithDependencies" />
       </option>
       <envs />
       <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="39342" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="SwingMovieListShould.addAnMovieByClickingEtc" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="tdd.clock in tdd-8segment-clock" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
-          <option name="PATTERN" value="tdd.mimuw.movielist.view.*" />
+          <option name="PATTERN" value="tdd.clock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="tdd-at-mimuw-fall-2010-03-MovieList-587dfbc" />
+      <module name="tdd-8segment-clock" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tdd.mimuw.movielist.view" />
-      <option name="MAIN_CLASS_NAME" value="tdd.mimuw.movielist.view.SwingMovieListShould" />
-      <option name="METHOD_NAME" value="addAnMovieByClickingEtc" />
+      <option name="PACKAGE_NAME" value="tdd.clock" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NumbersTest.testCons" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="tdd.clock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="tdd-8segment-clock" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tdd.clock" />
+      <option name="MAIN_CLASS_NAME" value="tdd.clock.NumbersTest" />
+      <option name="METHOD_NAME" value="testCons" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -667,9 +468,9 @@
       </method>
     </configuration>
     <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.ApplicationRunner" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.all" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SwingMovieListShould.addAnMovieByClickingEtc" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.NumbersTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.tdd.clock in tdd-8segment-clock" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.NumbersTest.testCons" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -690,14 +491,13 @@
     <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <configuration useDefault="true">$USER_HOME$/.subversion_IDEA</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0e0884ff-c7fb-4a63-ba2a-250552f2d8b4" name="Default" comment="" />
-      <created>1291736248705</created>
-      <updated>1291736248705</updated>
+      <changelist id="4b84dd4a-21d8-46ad-8e90-bbaac4c69135" name="Default" comment="" />
+      <created>1291814920873</created>
+      <updated>1291814920873</updated>
     </task>
     <servers />
   </component>
@@ -706,24 +506,24 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24790236" sideWeight="0.6587031" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24942791" sideWeight="0.67064846" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34129694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -800,120 +600,25 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/MainApplicationFrame.java">
+    <entry file="file://$PROJECT_DIR$/test/tdd/clock/DigitsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/presenter/EmptyTitleException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="53" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/vendor/fest/fest-assert-1.2.jar!/org/fest/assertions/Collections.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="163" selection-end="163" vertical-scroll-proportion="0.119760476">
+        <state line="100" column="0" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/view/GuiEventObserver.java">
+    <entry file="file://$PROJECT_DIR$/test/tdd/clock/NumbersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+        <state line="68" column="2" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/view/MovieView.java">
+    <entry file="file://$PROJECT_DIR$/src/tdd/clock/EightSegmentDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.7.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="43" selection-start="434" selection-end="434" vertical-scroll-proportion="-6.6">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/ApplicationRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/view/MovieListModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="17" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/movies/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="27" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#Movie#0;class#Movie#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Movie#0" expanded="false" />
-            <element signature="method#toString#0;class#Movie#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/presenter/DuplicateTitleException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/presenter/MovieListPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="30" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#MovieListPresenter#0;class#MovieListPresenter#0" expanded="false" />
-            <element signature="method#toggleDeleteButtonState#0;class#MovieListPresenter#0" expanded="false" />
-            <element signature="method#onRemoveMovieClicked#0;class#MovieListPresenter#0" expanded="false" />
-            <element signature="method#removeSelectedMovie#0;class#MovieListPresenter#0" expanded="false" />
-            <element signature="method#removeMovie#0;class#MovieListPresenter#0" expanded="false" />
-            <element signature="method#hasText#0;class#MovieListPresenter#0" expanded="false" />
-            <element signature="method#getMovies#0;class#MovieListPresenter#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/tdd/mimuw/movielist/presenter/MoviePresenterShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/tdd/mimuw/movielist/view/MovieListModelShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tdd/mimuw/movielist/view/SwingMovieList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="27" selection-start="2140" selection-end="2150" vertical-scroll-proportion="0.0">
+        <state line="110" column="25" selection-start="2123" selection-end="2123" vertical-scroll-proportion="0.6505376">
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/tdd/mimuw/movielist/view/SwingMovieListShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="30" selection-start="1884" selection-end="1884" vertical-scroll-proportion="0.7773655">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#plzWait#0;class#SwingMovieListShould#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -971,7 +676,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>tdd-at-mimuw-fall-2010-03-MovieList-587dfbc</last-edited>
+          <last-edited>tdd-8segment-clock</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -984,7 +689,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Unnamed</last-edited>
+          <last-edited>guava</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
